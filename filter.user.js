@@ -3,8 +3,8 @@
 // @namespace   local
 // @description Ask for confirmation before entering site
 // @inject-into auto
-// @include     https://*.elpais.com/
-// @include     https://pitchfork.com/
+// @match     *://*.elpais.com/
+// @match     *://*.pitchfork.com/
 // ==/UserScript==
 
 function launchAlert(){
