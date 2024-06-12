@@ -8,5 +8,5 @@
 // @include     https://superuser.com/*
 // ==/UserScript==
 
-var network = document.getElementById("hot-network-questions");
+const network = document.getElementById("hot-network-questions");
 if (network) network.parentNode.removeChild(network);

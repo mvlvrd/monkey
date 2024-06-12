@@ -9,7 +9,6 @@ const TIMEOUT_MS = 2000;
 
 function removeBox() {
   const clarifyBox = document.getElementById("clarify-box");
-  console.debug(clarifyBox);
   if (clarifyBox) {
     clarifyBox.parentNode.removeChild(clarifyBox);
   }
