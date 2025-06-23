@@ -2,11 +2,11 @@
 // @name        removeSections
 // @namespace   local
 // @description Remove distracting sections
-// @include     https://*.stackexchange.com/*
-// @include     https://stackoverflow.com/*
-// @include     https://askubuntu.com/*
-// @include     https://superuser.com/*
-// @include     https://*.wikipedia.org/*
+// @match     https://*.stackexchange.com/*
+// @match     https://stackoverflow.com/*
+// @match     https://askubuntu.com/*
+// @match     https://superuser.com/*
+// @match     https://*.wikipedia.org/*
 // ==/UserScript==
 
 const host = window.location.hostname.split(".").slice(-2).join(".");

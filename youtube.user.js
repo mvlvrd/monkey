@@ -2,7 +2,7 @@
 // @name        youtube
 // @namespace   local
 // @description Remove clarify-box
-// @include     https://www.youtube.com/*
+// @match     https://www.youtube.com/*
 // ==/UserScript==
 
 const TIMEOUT_MS = 2000;
