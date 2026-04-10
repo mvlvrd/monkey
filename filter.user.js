@@ -7,8 +7,4 @@
 // @match     *://*.pitchfork.com/
 // ==/UserScript==
 
-function launchAlert(){
-    alert("Do you really want to see this?")
-}
-
-launchAlert();
+alert("Do you really want to see this?");

@@ -10,9 +10,9 @@
 // ==/UserScript==
 
 const host = window.location.hostname.split(".").slice(-2).join(".");
-const sect = { "stackexchange.com":"#hot-network-questions",
+const sect = { "askubuntu.com":"#hot-network-questions",
+	       "stackexchange.com":"#hot-network-questions",
                "stackoverflow.com":"#hot-network-questions",
-               "askubuntu.com":"#hot-network-questions",
                "superuser.com":"#hot-network-questions",
                "wikipedia.org":"#siteNotice" }[host];
 const tbd = document.querySelector(sect);

@@ -5,12 +5,14 @@
 // @match     https://www.youtube.com/*
 // ==/UserScript==
 
+//TODO: Replace TimeOut with MutationObserver
+
 const TIMEOUT_MS = 2000;
 
 function removeBox() {
   const clarifyBox = document.querySelector("#clarify-box");
   if (clarifyBox) {
-    clarifyBox.parentNode.removeChild(clarifyBox);
+    clarifyBox.remove();
   }
 }
 
