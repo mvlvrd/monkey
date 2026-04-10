@@ -15,7 +15,6 @@ const sect = { "stackexchange.com":"#hot-network-questions",
                "askubuntu.com":"#hot-network-questions",
                "superuser.com":"#hot-network-questions",
                "wikipedia.org":"#siteNotice" }[host];
-
 const tbd = document.querySelector(sect);
 
-tbd.remove();
+tbd?.remove();
